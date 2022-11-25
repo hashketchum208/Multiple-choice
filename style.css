@@ -21,7 +21,7 @@ a:hover {
 .btn:focus, .btn:active, .btn:visited {
   outline: none !important;
   box-shadow: none !important;
-  background-color: #1871ca;
+  background-color: lightsalmon;
 }
 
 #finalScore {

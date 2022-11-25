@@ -1,8 +1,8 @@
 const questions = [
   {
       question: "JS stands for __",
-      choices: ["a. <js>", "b. <javascript>", "c. <scripting>", "d. <script>"],
-      answer: "d. JavaScript"
+      choices: ["a. <js>", "b. <JavaScript>", "c. <scripting>", "d. <script>"],
+      answer: "d. <JavaScript>"
   },
   {
       question: "__ are used with strings",
@@ -54,10 +54,10 @@ var questionNum = 0;
 var scoreResult;
 var questionIndex = 0;
 
-var totalTime = 151;
+var totalTime = 61;
 function newQuiz() {
   questionIndex = 0;
-  totalTime = 150;
+  totalTime = 60;
   timeLeft.textContent = totalTime;
   initialInput.textContent = "";
 
@@ -197,9 +197,7 @@ function showHighScores() {
   }
 }
 
-/**
-* ADD EVENT LISTENERS
-*/
+
 
 startQuizBtn.addEventListener("click", newQuiz);
 choiceA.addEventListener("click", chooseA);
