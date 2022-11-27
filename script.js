@@ -2,7 +2,7 @@ const questions = [
   {
       question: "JS stands for __",
       choices: ["a. <js>", "b. <JavaScript>", "c. <scripting>", "d. <script>"],
-      answer: "d. <JavaScript>"
+      answer: "b. <JavaScript>"
   },
   {
       question: "__ are used with strings",
